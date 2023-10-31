@@ -1,0 +1,95 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: gray;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    h1{
+        padding-left:70px ;
+        background-color: #c3b7ec;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px #eef3ee;
+        color: rgb(5, 150, 49);
+
+    }
+    #form-container{
+        /* width: 500px; */
+        /* height: 500px; */
+        background-color: rgb(12, 204, 204);
+        box-shadow: 5px 5px 5px black;
+        position: fixed;
+        padding: 50px;
+        border-radius: 20px;
+        width: 48%;
+        margin-right: 50px;
+    }
+    #enrollmentForm {
+        width: 100%;
+        max-width: 400px;
+    }
+    #studentTable {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 48%;
+    }
+    #studentTable th, #studentTable td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+    #studentTable th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+     /* Buttons */
+     input[type="button"], .delete-button, input[type="reset"] {
+        background-color: hsl(0, 90%, 45%);
+        color: white;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    input[type="button"]:hover, .delete-button:hover, input[type="reset"]:hover {
+        background-color: #0056b3;
+    }
+
+    /* Radio and Checkbox */
+    input[type="radio"], input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    #name,#email,#website{
+        border-radius: 5px;
+        width: 70%;
+        height: 25px;
+        padding-left: 5px;
+       
+    }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    /* Delete button styles */
+    .delete-button {
+        background-color: #d80a0a;
+    }
+
+    /* Add a vertical line to separate the form and table */
+    .vertical-line {
+        border-left: 1px solid #ddd;
+        height: 100%;
+        margin-left: 10px; /* Adjust the spacing as needed */
+    }
